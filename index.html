@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GOTravelPaniai</title>
+    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon" />
+
+    <!-- swiper cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- header section starts -->
+
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"><span>GO</span>TRAVELPANIAI</a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Pesan</a>
+        <a href="#packages">Paket</a>
+        <a href="#services">Layanan</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Tinjauan</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+      </div>
+
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here..." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <!-- header section ends    -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>GOTravel Paniai</h3>
+        <p>
+          GoTravelPaniai adalah solusi praktis bagi kamu yang ingin menjelajahi
+          keindahan Paniai. Dengan platform ini, perjalananmu akan menjadi lebih
+          terencana, nyaman, dan menyenangkan.
+        </p>
+        <a href="#" class="btn">discover more</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn" data-src="Images/paniai.mp4"></span>
+      </div>
+
+      <div class="video-container">
+        <video
+          src="Images/paniai.mp4"
+          id="video-slider"
+          loop
+          autoplay
+          muted
+        ></video>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- book section starts -->
+    <section class="book" id="book">
+      <h1 class="heading">
+        <span>p</span>
+        <span>e</span>
+        <span>s</span>
+        <span>a</span>
+        <span>n</span>
+        <span class="space"></span>
+        <span>s</span>
+        <span>e</span>
+        <span>k</span>
+        <span>a</span>
+        <span>r</span>
+        <span>a</span>
+        <span>n</span>
+        <span>n</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="Images/traveler.png" alt="" />
+        </div>
+        <form action="">
+          <div class="inputBox">
+            <h3>Dimana</h3>
+            <input type="text" placeholder="Nama tempat" />
+          </div>
+          <div class="inputBox">
+            <h3>Berapa Banyak</h3>
+            <input type="number" placeholder="Berapa banyak " />
+          </div>
+          <div class="inputBox">
+            <h3>Kedatangan</h3>
+            <input type="date" />
+          </div>
+          <div class="inputBox">
+            <h3>Meninggalkan</h3>
+            <input type="date" />
+          </div>
+          <input type="submit" class="btn" value="Pesan Sekarang" />
+        </form>
+      </div>
+    </section>
+
+    <!-- book section ends -->
+
+    <!-- packages section starts -->
+
+    <section class="packages" id="packages">
+      <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>k</span>
+        <span>e</span>
+        <span>t</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/p-1.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Paniai Timur</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, nam!
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">90.00 <span>120.00</span></div>
+            <a href="#" class="btn">Pesan Sekarang</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p-2.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Paniai Barat</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, nam!
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">90.00 <span>120.00</span></div>
+            <a href="#" class="btn">Pesan Sekarang</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p-3.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Paniai Utara</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, nam!
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">90.00 <span>120.00</span></div>
+            <a href="#" class="btn">Pesan Sekarang</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p-4.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Paniai Selatan</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, nam!
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">90.00 <span>120.00</span></div>
+            <a href="#" class="btn">Pesan Sekarang</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p-5.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Paniai</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, nam!
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">90.00 <span>120.00</span></div>
+            <a href="#" class="btn">Pesan Sekarang</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p-6.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Paniai</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, nam!
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">90.00 <span>120.00</span></div>
+            <a href="#" class="btn">Pesan Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts -->
+    <section class="services" id="services">
+      <h1 class="heading">
+        <span>L</span>
+        <span>a</span>
+        <span>y</span>
+        <span>a</span>
+        <span>n</span>
+        <span>a</span>
+        <span>n</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-hotel"></i>
+          <h3>Hotel Terjangkau</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-utensils"></i>
+          <h3>Makanan & Minuman</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-bullhorn"></i>
+          <h3>Panduan Keselamatan</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-globe-asia"></i>
+          <h3>GoTravel Paniai</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-plane"></i>
+          <h3>Perjalanan Tercepat</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-hiking"></i>
+          <h3>Petualangan</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- gallery section starts -->
+
+    <section class="gallery" id="gallery">
+      <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/g-1.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang menakjubkan</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">Selengkap</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-2.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang menakjubkan</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">Selengkap</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-3.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang menakjubkan</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">Selengkap</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-4.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang menakjubkan</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">Selengkap</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-5.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang menakjubkan</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">Selengkap</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-6.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang menakjubkan</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">Selengkap</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-7.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang menakjubkan</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">Selengkap</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-8.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang menakjubkan</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">Selengkap</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/g-9.jpg" alt="" />
+          <div class="content">
+            <h3>Tempat yang menakjubkan</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">Selengkap</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h1 class="heading">
+        <span>t</span>
+        <span>i</span>
+        <span>n</span>
+        <span>j</span>
+        <span>a</span>
+        <span>u</span>
+        <span>a</span>
+        <span>n</span>
+      </h1>
+
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic1.png" alt="" />
+              <h3>Admin</h3>
+              <p>
+                TravelPaniai berbasis website adalah sebuah platform online yang
+                dirancang khusus untuk mempromosikan dan memfasilitasi
+                perjalanan wisata di Kabupaten Paniai. Dengan adanya website
+                ini, informasi mengenai destinasi wisata, akomodasi,
+                transportasi, hingga paket wisata di Paniai dapat diakses dengan
+                mudah oleh calon wisatawan dari seluruh penjuru dunia.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">
+        <span>K</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>k</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/gotraveler.png" alt="" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="Nama" />
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="Nomor" />
+            <input type="text" placeholder="subject" />
+          </div>
+          <textarea
+            placeholder="Message"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" class="btn" value="Kirim" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>🧑🏿Tentang Kami</h3>
+          <p>
+            <strong>GOTravelPaniai :</strong> Adalah sebuah platform online yang
+            menyediakan informasi dan layanan terkait perjalanan dan pariwisata,
+            yang khususnya Seputaran wilayah Paniai.
+          </p>
+        </div>
+        <div class="box">
+          <h3>🗺️Tarvel Lokasi</h3>
+          <a href="#">Paniai Timur</a>
+          <a href="#">Paniai Barat</a>
+          <a href="#">Paniai Utara</a>
+          <a href="#">Paniai Selatan</a>
+        </div>
+        <div class="box">
+          <h3>🚀Tautan Cepat</h3>
+          <a href="#">Home</a>
+          <a href="#">Pesan</a>
+          <a href="#">Paket</a>
+          <a href="#">Layanan</a>
+          <a href="#">Gallery</a>
+        </div>
+        <div class="box">
+          <h3>☎️Hubungi Kami</h3>
+          <a href="www.facebook.com">facebook</a>
+          <a href="www.instagram.com">instagram</a>
+          <a href="www.x.com">twitter</a>
+          <a href="www.linkedin.com">linkedin</a>
+        </div>
+      </div>
+      <h2 class="credit">
+        &copy 2024. Developed by
+        <span>
+          <strong>
+            <a href="https://melpenyogi.github.io/melpen/">Melpen Yogi</a>
+          </strong> </span
+        >All Rights Reserved.
+      </h2>
+    </section>
+
+    <!-- footer section ends -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+  </body>
+</html>
